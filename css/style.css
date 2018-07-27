@@ -1,0 +1,23 @@
+.page-container {
+    display : flex;
+}
+
+.main-container {
+    display : flex;
+}
+
+.header-container {
+    display : flex;
+}
+
+.body-container {
+    display: flex;
+}
+
+.personal-photo-container {
+}
+
+.personal-summary-container {
+}
+
+
