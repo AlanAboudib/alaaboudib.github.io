@@ -1,23 +1,60 @@
-.page-container {
-    display : flex;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #e4e4e4;
 }
 
+body>div {
+    min-width: 800px;
+    width: 60vw;
+}
 .main-container {
     display : flex;
+    background-color: white;
 }
 
 .header-container {
     display : flex;
+    background-color: red;
 }
 
 .body-container {
     display: flex;
+    background-color: blue;
 }
 
 .personal-photo-container {
+    dispaly: flex;
+    flex-direction: column;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-photo-container>img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
 }
 
 .personal-summary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+#brief-about-me {
+}
+
+#my_email {
+}
+
+#my-social-media {
 }
 
 
