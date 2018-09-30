@@ -20,13 +20,49 @@ body>div {
 .header-container {
     display : flex;
     background-color: red;
+    border-width: 0 0 3px 0;
+    border-color: #6fab66;
+    border-style: solid;    
+
 }
 
 .body-container {
     display: flex;
-    background-color: blue;
+    background-color: #e4e4e4;
+    padding: 40pt 0 0 0;
 }
 
+.body-container>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0pt 0pt 0pt 0pt;
+}
+
+.content-list-item {
+    margin: 10pt 30pt 10pt 0pt;
+    text-align: center;
+    display: flex;
+    border-style: solid;
+    border-color: #6ea766;
+    border-width: 3px
+    min-width: 90pt;
+    justify-content: center;
+}
+
+.content-list-item>a {
+    text-decoration: none;
+    padding: 10pt;
+    min-width: 90pt;
+}
+
+.content-list-item>a>.fas {
+    color: #6fab66;
+}
+
+.content-list-item>a>p {
+    color: #496c44;
+}
 .personal-photo-container {
     display: flex;
     flex-direction: column;
@@ -34,17 +70,15 @@ body>div {
     min-width: 300px;
     height: 300px;
     flex-grow: 1;
-    border-color: #6fab66;
-    border-style: solid;
     background-color: #e4e4e4;
-    border-width: 0px 0 1px 0px;    
+
 }
 
 .personal-photo-container>img {
     height: 200px;
     width: 200px;
     padding: 10px;
-    border-width: 1px 1px 1px 1px;
+    border-width: 3px;
     border-color: #6fab66;
     border-style: solid;
     background-color: #e4e4e4;    
@@ -54,12 +88,19 @@ body>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    flex-grow: 5;		    
+    align-items: right;
+    background-color: #e4e4e4;
+    flex-grow: 5;
 }
 
 #brief-about-me {
+    background-color: #6fab66;
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;    
 }
 
 #my_email {
